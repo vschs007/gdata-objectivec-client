@@ -16,11 +16,8 @@
 
 #ifndef _GDATAFRAMEWORK_H_
 #define _GDATAFRAMEWORK_H_
-
 #import <Foundation/Foundation.h>
-
 #import "GDataDefines.h"
-
 
 // The project's static library target defines these by default:
 //
