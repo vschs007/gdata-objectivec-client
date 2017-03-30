@@ -12,8 +12,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-
 #ifndef _GDATAFRAMEWORK_H_
 #define _GDATAFRAMEWORK_H_
 #import <Foundation/Foundation.h>
@@ -39,16 +37,11 @@
     #error The service placeholder compiler flag should be replaced by actual service specifications
   #endif
 #endif
-
-
 // Returns the version of the framework.  Major and minor should
 // match the bundle version in the Info.plist file.
 //
 // Pass NULL to ignore any of the parameters.
-
 void GDataFrameworkVersion(NSUInteger* major, NSUInteger* minor, NSUInteger* release);
-
 // Returns the version in @"a.b" or @"a.b.c" format
 NSString *GDataFrameworkVersionString(void);
-
 #endif
